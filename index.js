@@ -1,5 +1,6 @@
 module.exports = {
   'root': true,
+  "plugins": ["import"],
   'env': {
     'es6': true,
     'browser': true,
@@ -17,7 +18,6 @@ module.exports = {
     }
   },
   "rules": {
-    
     "spaced-comment": ["error", "always", { "markers": ["/"] }],
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",

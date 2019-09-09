@@ -1,5 +1,8 @@
 module.exports = {
   "plugins": ["react-hooks"],
+  "extends": [
+    'plugin:react/recommended'
+  ],
   "rules": {
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/no-static-element-interactions": "off",
@@ -15,7 +18,6 @@ module.exports = {
     "react/no-unknown-property": "error",
     "react/no-unsafe": "error",
     "react/jsx-fragments": ["error", "syntax"],
-    "react/sort-comp": "error",
     "react/jsx-curly-brace-presence": ["error", "never"],
     "react/jsx-key": "error",
     "react/jsx-no-duplicate-props": "error",
@@ -23,15 +25,16 @@ module.exports = {
     "react/no-redundant-should-component-update": "error",
     "react/no-string-refs": "error",
     "react/jsx-tag-spacing": [
-        "error",
-        {
-            "closingSlash": "never",
-            "beforeSelfClosing": "always",
-            "afterOpening": "never"
-        }
+      "error",
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "always",
+        "afterOpening": "never"
+      }
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": "off"
   },
   "settings":  {
     "react":  {
