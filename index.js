@@ -1,13 +1,14 @@
 module.exports = {
-  'root': true,
+  "root": true,
   "plugins": ["import"],
-  'env': {
-    'es6': true,
-    'browser': true,
-    'node': true,
-    'amd': false,
-    'mocha': false,
-    'jasmine': false
+  "extends": ["airbnb"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "amd": false,
+    "mocha": false,
+    "jasmine": false
   },
   "parserOptions":  {
     "ecmaVersion":  2018,

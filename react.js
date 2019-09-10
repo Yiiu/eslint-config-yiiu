@@ -1,7 +1,7 @@
 module.exports = {
   "plugins": ["react-hooks"],
   "extends": [
-    'plugin:react/recommended'
+    "plugin:react/recommended"
   ],
   "rules": {
     "jsx-a11y/anchor-is-valid": "off",
