@@ -18,6 +18,7 @@ module.exports = {
     }
   },
   "rules": {
+    "quotes": ["error", "single"],
     "spaced-comment": ["error", "always", { "markers": ["/"] }],
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
