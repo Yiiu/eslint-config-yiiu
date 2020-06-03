@@ -23,11 +23,9 @@ module.exports = {
       }
     }],
     "@typescript-eslint/no-parameter-properties": ["off", { "allows": ["private", "readonly"] }],
-    "@typescript-eslint/interface-name-prefix": ["error", "always"],
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
-    "@typescript-eslint/class-name-casing": "error",
     "@typescript-eslint/func-call-spacing": ["error", "never"],
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/member-ordering": [
